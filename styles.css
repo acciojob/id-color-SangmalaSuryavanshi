@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  padding: 10px;
+  margin: 10px;
+}
+
+#yellow {
+  background-color: yellow;
+  border: 1px solid green;
+}
+
+#red {
+  background-color: red;
+  border: 1px solid black;
+}
+
+#green {
+  background-color: green;
+  border: 1px solid yellow;
+  color: white; /* Ensure text is readable on green background */
+}
